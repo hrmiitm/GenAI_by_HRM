@@ -11,5 +11,7 @@ class Movie(TypedDict):
     casts: list[str]
 
 m1: Movie = {'name':'Kick', 'year':'32'}
+m1 = Movie({'name':'Kick', 'year':'32'})
+m1 = Movie(name='hritik', year='234')
 
 print(type(m1), m1)
